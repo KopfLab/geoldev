@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<center>
+  <h1>{{ page.name }}</h1>
+  <p><img src="{{ site.baseurl }}/people/faculty/pictures/{{ page.url | split:"/" | last }}.jpg"/></p>
+  <h3>{{ page.research }}</h3>
+</center>
+
+{{ content }}
+
+<h3>Publications</h3>
+
+<div id="publications"></div>

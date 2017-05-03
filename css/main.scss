@@ -1,0 +1,72 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Notes:
+// override bootstrap values, full list of variables:
+// http://getbootstrap.com/customize/#less-variables
+@import "bootstrap";
+
+/***** custom CSS *****/
+
+/* ---- HTML and body ---- */
+html {
+  position: relative;
+  min-height: 100%;
+  overflow-y: scroll; // to make sure that the content doesn't always shift around when the scrollbar first shows up
+}
+
+/* --- horizontal lines --- */
+
+.horizontal-line {
+  border: 0px;
+  border-bottom: 2px solid #aaa;
+  width: 90%;
+}
+
+/* ---- faculty topic filter buttons ---- */
+
+.filter-button{
+  &:hover {
+    background-color: #8CF;
+    text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
+    color: #222;
+  }
+
+  &:active,
+  &.is-checked {
+    background-color: #8CF;
+    color: #222;
+  }
+}
+
+
+/* ---- .grid ---- */
+
+.grid {
+  //background: #DDD; // for trouble shooting
+  max-width: 100%;
+
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  .gutter-sizer { width: 30px; }
+
+  .grid-item {
+    //background: #0D8; // for trouble shooting
+    width: 180px;
+    min-height: 220px;
+    float: left;
+    margin: 0 auto; /* centered */
+    margin-bottom: 30px;
+
+    img {
+      border: 2px solid #333;
+    }
+  }
+
+}

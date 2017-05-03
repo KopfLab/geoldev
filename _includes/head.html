@@ -1,0 +1,38 @@
+<head>
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="{{ site.description }}">
+  <title>{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}</title>
+
+  <!-- Style -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  {% if site.icon %}<link rel="icon" type="image/png" href="{{ site.icon }}" />{% endif %}
+
+  <!-- Javascript -->
+  <script src="{{ site.baseurl }}/js/jquery-1.11.3.min.js"></script>
+  <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
+  <script src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script>
+
+  <!-- Page and layout specific js -->
+  {% if page.js_file %}
+  <script src="{{ site.baseurl }}/js/{{ page.js_file }}"></script>
+  {% endif %}
+
+  {% if layout.js_file %}
+  <script src="{{ site.baseurl }}/js/{{ layout.js_file }}"></script>
+  {% endif %}
+
+  <!-- publications list -->
+  {% if page.orcid %}
+  <script src="{{ site.baseurl }}/js/orcid.js"></script>
+  <script>
+    $(document).ready(function() {
+        createORCIDProfile("{{ page.orcid }}", "publications");
+    });
+  </script>
+  {% endif %}
+
+</head>

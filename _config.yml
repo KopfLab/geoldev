@@ -1,0 +1,31 @@
+# General information
+title: Home
+email:
+address: >
+  Univ. of Colorado<br/>
+  Department of Geol. Sciences<br/>
+  2200 Colorado Ave<br/>
+  Boulder, CO 80309-0001
+url: "http://www.colorado.edu"
+baseurl: "/GeolSci/topicstest"
+
+# News information
+front_page_news: 5
+
+# Build settings
+markdown: kramdown
+
+# Gems
+gems:
+
+# Excluded files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Guardfile
+
+# Non-news data
+collections:
+  people:
+    output: true
+    permalink: /:collection/:path/

@@ -1,0 +1,45 @@
+---
+layout: default
+js_file: faculty_topics.js
+---
+
+<br />
+
+<div class="media">
+
+  <div class="media-left">
+    <!-- Filters -->
+    <div id="filters" class="btn-group-vertical" role="group">
+      {% for filter in page.filters %}
+      <button type="button" class="btn btn-primary filter-button" data-filter=".{{ filter.id }}">
+        <strong>{{ filter.label }}</strong>
+      </button>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="media-body">
+    <!-- Grid -->
+    <hr class="horizontal-line">
+    <h3 id="filter-display" class="text-center">All topic areas</h3>
+    <hr class="horizontal-line">
+    <div class="grid">
+      <div class="grid-sizer"></div>
+      <div class="gutter-sizer"></div>
+  		{% for person in site.people %}
+  		<div class="grid-item {{ person.topics }}" alt="{{ person.name }}" title="{{ person.name }}">
+          <center>
+            <a href="{{ site.baseurl }}{{ person.url }}">
+              <img class="d-flex mr-3"
+                    src="{{ site.baseurl }}/people/faculty/pictures/{{ person.url | split:"/" | last }}.jpg"
+                    alt="{{ person.name }}"></br>
+              <h4 class="mt-0">{{ person.name }}</h4>
+            </a>
+            {{ person.research | strip_html | truncatewords: 10 }}
+          </center>
+  		</div>
+  		{% endfor %}
+    </div>
+
+  </div>
+</div>
