@@ -22,7 +22,7 @@ filters:
     id: geomorph
   - label: global change
     id: change
-  - label: igneous and metamorphic petrology
+  - label: igneous/metamorphic petrology
     id: petrology
   - label: mineral physics, mineralogy
     id: minerals
