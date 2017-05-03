@@ -6,8 +6,8 @@ address: >
   Department of Geol. Sciences<br/>
   2200 Colorado Ave<br/>
   Boulder, CO 80309-0001
-url: "http://www.colorado.edu"
-baseurl: "/GeolSci/topicstest"
+url: "http://kopflab.com"
+baseurl: "/geoldev"
 
 # News information
 front_page_news: 5
