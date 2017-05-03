@@ -1,7 +1,8 @@
 ---
 layout: person
 name: Bruce Jakosky
+orcid: 
 topics: astrocosmo planetary
 research: |
-  Planetary processes and evolution,Mars climate and climate change, and astrobiology
+  Planetary geology, Mars, astrobiology
 ---

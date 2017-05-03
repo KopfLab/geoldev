@@ -1,7 +1,8 @@
 ---
 layout: person
-name:  Boswell Wing
-topics: geochem tectonics
+name: Boswell Wing
+orcid: 
+topics: astrocosmo resources geobio geochem paleontology
 research: |
   Isotope geochemistry, Biological evolution, Ore deposition
 ---

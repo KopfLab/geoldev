@@ -1,7 +1,8 @@
 ---
 layout: person
 name: Kevin Mahan
-topics: petrology structure
+orcid: 
+topics: geochron geodyn petrology minerals structure
 research: |
   Structural geology, tectonics, metamorphic petrology, deep crustal processes
 ---

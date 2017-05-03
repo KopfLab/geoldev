@@ -1,7 +1,8 @@
 ---
 layout: person
 name: Jennifer Stempien
-topics: education geobio
+orcid: 
+topics: education paleontology
 research: |
   
 ---

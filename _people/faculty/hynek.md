@@ -1,7 +1,8 @@
 ---
 layout: person
 name: Brian Hynek
-topics: astrocosmo education resources geobio geochron geodyn geomorph change geochem minerals hazards paleo planetary sedstrat structure
+orcid: 
+topics: astrocosmo education resources geobio geochron geodyn geomorph change geochem minerals hazards paleoclimateocean paleontology planetary sedstrat structure
 research: |
-  Planetary geology, Mars, astrobiology
+  Subsurface hydrodynamics in porous media, role of groundwater flow in heat transport, interaction between groundwater flow and rock deformation
 ---

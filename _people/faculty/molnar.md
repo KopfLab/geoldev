@@ -1,7 +1,8 @@
 ---
 layout: person
 name: Peter Molnar
-topics: geodyn paleo structure
+orcid: 
+topics: geodyn paleoclimateocean structure
 research: |
   Seismology, Geophysics, Tectonics
 ---
