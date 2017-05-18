@@ -6,6 +6,8 @@ permalink: /people/faculty/
 filters:
   - label: astrobiology, cosmochemistry
     id: astrocosmo
+  - label: new catgory
+    id: newcat
   - label: low temperature, organic,<br/> isotope (bio)geochemistry
     id: geochem
   - label: earth science education
