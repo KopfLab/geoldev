@@ -23,6 +23,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - Guardfile
+  - Makefile
 
 # Non-news data
 collections:
